@@ -1,0 +1,19 @@
+{
+  "name": "time-travel-episode",
+  "version": "1.0.0",
+  "description": "Interactive demo of the time-travel-episode.",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jim Kang",
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "uglify-es": "^3.2.2"
+  },
+  "dependencies": {
+    "d3-selection": "^1.2.0",
+    "d3-zoom": "^1.7.1"
+  }
+}
