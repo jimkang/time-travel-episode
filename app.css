@@ -18,10 +18,6 @@ section.game {
   margin: 0;
   z-index: 0;
   background-color: pink;
-}
-
-section.game .canvases-container {
-  width: 100%;
   border: 2px #333 dashed;
 }
 

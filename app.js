@@ -3,6 +3,8 @@ var Zoom = require('d3-zoom');
 
 (function go() {
   var board = d3.select('#board');
+  board.attr('width', document.body.getBoundingClientRect().width - 10);
+  board.attr('height', document.body.getBoundingClientRect().height - 20);
   var zoomLayer = board.select('#board .zoom-layer');
   var zoom = Zoom.zoom()
     .scaleExtent([0.1, 4])
