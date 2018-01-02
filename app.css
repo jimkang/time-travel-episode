@@ -1,6 +1,6 @@
 body {
   font-family: futura, 'helvetica neue';
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 200;
   background-color: #eee;
 }
@@ -17,6 +17,7 @@ section.game {
   height: 100%;
   margin: 0;
   z-index: 0;
+  background-color: pink;
 }
 
 section.game .canvases-container {
@@ -34,6 +35,7 @@ section.meta {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 1em;
 }
 
 a:link {
